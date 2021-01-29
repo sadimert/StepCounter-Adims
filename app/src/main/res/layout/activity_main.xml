@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adıms"
+        android:textColor="#2196F3"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2196F3"
+        android:textSize="36dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/sensor1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensor1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:text="Start"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:tint="#606060" />
+
+    <TextView
+        android:id="@+id/txt_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textColor="#2196F3"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_confidence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:textColor="#CF0000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_start_tracking"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Start Tracking"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#3F51B5" />
+
+    <Button
+        android:id="@+id/btn_stop_tracking"
+        style="@android:style/Widget.Material.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Stop Tracking"
+        android:textColor="#2196F3"
+        android:textColorHighlight="#2196F3"
+        android:textColorLink="#3F51B5" />
+</LinearLayout>
